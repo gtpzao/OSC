@@ -1,0 +1,9 @@
+{
+  "app": {
+    "noCompanies": {
+      "title": "Launch your ORK factory",
+      "description": "Install the bundled BIRCK baseline with the free FCC + NVIDIA NIM default stack.",
+      "newCompany": "Launch ORK Onboarding"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+schema: "paperclip/v1"
+agents:
+  analyst:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  architect:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  backend:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  ceo:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  cmo:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  cto:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  dataanalytics:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  devcodex:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  devops:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  docsmemory:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  frontend:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  mobile:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  orchestrator:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  pm:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  qa:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  releasemanager:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  security:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  support:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  tea:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+        maxTurnsPerRun: 10000
+      type: "claude_local"
+  uxdesigner:
+    adapter:
+      config:
+        chrome: true
+        command: "fcc-claude"
+        effort: "high"
+      type: "claude_local"
+company:
+  attachmentMaxBytes: 10485760
+  requireBoardApprovalForNewAgents: true
+sidebar:
+  agents:
+    - "ceo"
+    - "orchestrator"
+    - "analyst"
+    - "cmo"
+    - "cto"
+    - "dataanalytics"
+    - "docsmemory"
+    - "pm"
+    - "support"
+    - "uxdesigner"
+    - "architect"
+    - "backend"
+    - "devcodex"
+    - "devops"
+    - "frontend"
+    - "mobile"
+    - "qa"
+    - "releasemanager"
+    - "security"
+    - "tea"
